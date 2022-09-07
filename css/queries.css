@@ -8,7 +8,7 @@
 
 @media (max-width: 38.0625em) {
   main {
-    padding: 0 4rem;
+    padding: 0 3rem;
   }
   .component {
     grid-template-columns: 1fr;
