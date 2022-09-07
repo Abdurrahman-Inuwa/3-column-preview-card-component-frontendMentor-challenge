@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+main {
+  max-width: 144rem;
+  margin: 0 auto;
+  padding: 0 3.4rem;
+}
+
+.component {
+  max-width: 100rem;
+  margin: 9.6rem auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.card-component {
+  padding: 4.2rem;
+  height: 43rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.heading-secondary {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: hsl(0, 0%, 95%);
+}
+
+.card-component-desc {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.learn-more {
+  margin-top: auto;
+  border: 0px solid;
+  color: inherit;
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.orange {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(31, 77%, 52%);
+}
+
+.light-cyan {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(184, 100%, 22%);
+}
+
+.dark-cyan {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(179, 100%, 13%);
+}

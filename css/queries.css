@@ -1,0 +1,28 @@
+/* 760px =>  */
+
+@media (max-width: 47.5em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 38.0625em) {
+  main {
+    padding: 0 4rem;
+  }
+  .component {
+    grid-template-columns: 1fr;
+  }
+  .card-component {
+    gap: 1.5rem;
+    height: auto;
+  }
+  .card-component-desc {
+    max-width: 90%;
+    font-size: 1.6rem;
+    line-height: 1.8;
+  }
+  .learn-more {
+    margin-top: 2rem;
+  }
+}
